@@ -21,7 +21,4 @@ cd backend
 
 # Install dependencies
 npm install
-
 ```
-
-##⚙️ Environment Variables
