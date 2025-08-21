@@ -1,4 +1,4 @@
-# User Management Dashboard - Backend (FeathersJS + PostgreSQL)
+# User Management- Backend (FeathersJS + PostgreSQL)
 
 This repository contains the **FeathersJS backend API** for the User Management Dashboard project.  
 It provides RESTful APIs to manage users, connected to a **PostgreSQL** database via **Knex**.
@@ -27,7 +27,7 @@ npm install
 Create a .env file in the root directory and configure:
 
 PORT=3030
-DATABASE_URL=postgres://<username>:<password>@localhost:5432/<database_name>
+DATABASE_URL=postgresql://myuser:mypassword@localhost:5432/user_management
 
 
 ⚠️ Make sure the database exists before running migrations.
